@@ -8,7 +8,7 @@ https://console.cloud.google.com/auth/clients/
 * Select Desktop
 * Give it any name
 * Create
-* Download JSON
+* Download JSON to credentials.json
 * OK
 
 ## Create Refresh Token
