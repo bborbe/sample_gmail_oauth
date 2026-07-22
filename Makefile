@@ -37,9 +37,5 @@ vulncheck:
 	go run -mod=mod golang.org/x/vuln/cmd/govulncheck $(shell go list -mod=mod ./... | grep -v /vendor/)
 
 deps:
-	go install github.com/bborbe/teamvault-utils/cmd/teamvault-config-parser@latest
-	go install github.com/bborbe/teamvault-utils/cmd/teamvault-file@latest
-	go install github.com/bborbe/teamvault-utils/cmd/teamvault-url@latest
-	go install github.com/bborbe/teamvault-utils/cmd/teamvault-username@latest
-	go install github.com/bborbe/teamvault-utils/cmd/teamvault-password@latest
+	go install github.com/Seibert-Data/teamvault-cli/v5@latest
 	go install github.com/onsi/ginkgo/v2/ginkgo@latest
