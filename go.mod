@@ -1,6 +1,6 @@
 module github.com/bborbe/sample_golang_gmail
 
-go 1.26.6
+go 1.27.0
 
 require (
 	github.com/actgardner/gogen-avro/v9 v9.2.0
